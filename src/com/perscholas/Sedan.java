@@ -16,12 +16,6 @@ package com.perscholas;
 
         public double getSalePrice() {
             return super.getSalePrice() ;
-            if (length > 20) {
-                final double v1 = super.getSalePrice() * 0.05;
-            }
-            else {
-                final double v = 0.1 * super.getSalePrice();
-            }
         }
     }
 

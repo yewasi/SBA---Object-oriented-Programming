@@ -1,7 +1,9 @@
 package com.perscholas;
 
 public class Truck extends Car {
+    void supperclass(int speed) {
 
+    }
     // child class Truck inherits Car class
 
     private final int weight;
@@ -10,7 +12,7 @@ public class Truck extends Car {
 
     {
         // instance variable
-        int weight;
+        int weight = 0;
         int speed = 0;
         double regularPrice = 0;
         String color = "";
@@ -25,11 +27,12 @@ public class Truck extends Car {
         this.color = "";
 
         int length = 0;
-        super(speed, regularPrice, color);
+        supperclass(speed);
+        supperclass(speed);
         this.length = length;
         {
 
-            super(speed = 0);
+            supperclass(speed = 0);
             new String(color);
 
 
@@ -40,9 +43,11 @@ public class Truck extends Car {
         {
             if (weight > 2000) {
                 final double v = regularPrice - regularPrice * 0.1;
-                return v;
+                final double v1 = v;
+
             } else {
-                return regularPrice - regularPrice * 0.2;
+                double v = regularPrice - regularPrice * 0.2;
+               
             }
         }
     }

@@ -16,7 +16,7 @@ package com.perscholas;
 
         }
 
-        public Car() {
+        public Car(String color, Class<Integer> integerClass) {
 
         }
 
