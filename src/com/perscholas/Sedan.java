@@ -2,8 +2,6 @@ package com.perscholas;
 
 
 
-    //filename: Sedan.java
-// Sedan class, subclass of Car
     public class Sedan extends Car {
         private int length;
 

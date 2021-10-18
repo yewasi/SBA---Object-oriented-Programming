@@ -1,9 +1,6 @@
 package com.perscholas;
 
 
-
-    //filename: Ford.java
-// Ford class, subclass of Car
     public class Ford extends Car {
         private int year;
         private int manufacturerDiscount;
